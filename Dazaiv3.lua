@@ -1,4 +1,4 @@
--- Made by Dazai
+-- Made by dazai
 
 -- Version: 3
 
@@ -35,6 +35,8 @@ local EzHub = Instance.new("TextButton")
 local TextLabel_2 = Instance.new("TextLabel")
 local openmain = Instance.new("Frame")
 local Open = Instance.new("TextButton")
+local Shindo = Instance.new("TextButton")
+local PowerfulJump = Instance.new("TextButton")
 
 --Properties:
 
@@ -3601,6 +3603,36 @@ Bedwars.TextSize = 20.000
 Bedwars.MouseButton1Down:Connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
 end)
+
+
+Shindo.Name = "Shindo"
+Shindo.Parent = NextFrame
+Shindo.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Shindo.BorderSizePixel = 0
+Shindo.Position = UDim2.new(0.235682815, 0, 0.212121189, 0)
+Shindo.Size = UDim2.new(0, 99, 0, 50)
+Shindo.Font = Enum.Font.SourceSans
+Shindo.Text = "Shindo"
+Shindo.TextColor3 = Color3.fromRGB(255, 170, 0)
+Shindo.TextSize = 20.000
+Shindo.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/L1ZOT/Project-PJM/main/shinido"))()
+end)
+
+PowerfulJump.Name = "Powerful Jump"
+PowerfulJump.Parent = NextFrame
+PowerfulJump.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PowerfulJump.BorderSizePixel = 0
+PowerfulJump.Position = UDim2.new(0.235682815, 0, 0.41077438, 0)
+PowerfulJump.Size = UDim2.new(0, 99, 0, 50)
+PowerfulJump.Font = Enum.Font.SourceSans
+PowerfulJump.Text = "Powerful Jump"
+PowerfulJump.TextColor3 = Color3.fromRGB(255, 170, 0)
+PowerfulJump.TextSize = 15.000
+PowerfulJump.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.Humanoid.jumppower =250
+end)
+
 
 Back.Name = "Back"
 Back.Parent = NextFrame
