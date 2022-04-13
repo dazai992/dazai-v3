@@ -3630,7 +3630,7 @@ PowerfulJump.Text = "Powerful Jump"
 PowerfulJump.TextColor3 = Color3.fromRGB(255, 170, 0)
 PowerfulJump.TextSize = 15.000
 PowerfulJump.MouseButton1Down:Connect(function()
-	game.Players.LocalPlayer.Character.Humanoid.jumppower =250
+	game.Players.LocalPlayer.Character.Humanoid.JumpPower =250
 end)
 
 
