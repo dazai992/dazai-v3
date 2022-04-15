@@ -36,6 +36,7 @@ local TextLabel_2 = Instance.new("TextLabel")
 local openmain = Instance.new("Frame")
 local Open = Instance.new("TextButton")
 local Shindo = Instance.new("TextButton")
+local Adminv2 = Instance.new("TextButton")
 local PowerfulJump = Instance.new("TextButton")
 local Shindov2 = Instance.new("TextButton")
 
@@ -3648,6 +3649,20 @@ Shindov2.MouseButton1Down:Connect(function()
 	loadstring(game:HttpGet("https://scriptblox.com/raw/shindo-life-autofarmautospin_891", true))()
 end)
 
+Adminv2.Name = "Admin v2"
+Adminv2.Parent = NextFrame
+Adminv2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Adminv2.BorderSizePixel = 0
+Adminv2.Position = UDim2.new(0.473568261, 0, 0.0168349743, 0)
+Adminv2.Size = UDim2.new(0, 99, 0, 50)
+Adminv2.Font = Enum.Font.SourceSans
+Adminv2.Text = "Admin v2"
+Adminv2.TextColor3 = Color3.fromRGB(255, 170, 0)
+Adminv2.TextSize = 20.000
+Adminv2.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/MjBzRjmT'),true))()
+end)
+
 Back.Name = "Back"
 Back.Parent = NextFrame
 Back.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -3736,4 +3751,4 @@ Open.MouseButton1Down:connect(function()
 	openmain.Visible = false
 	main.Visible = true
 	NextFrame.Visible =false
-end) 
+end)
