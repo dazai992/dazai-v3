@@ -37,6 +37,7 @@ local openmain = Instance.new("Frame")
 local Open = Instance.new("TextButton")
 local Shindo = Instance.new("TextButton")
 local PowerfulJump = Instance.new("TextButton")
+local Shindov2 = Instance.new("TextButton")
 
 --Properties:
 
@@ -3633,6 +3634,19 @@ PowerfulJump.MouseButton1Down:Connect(function()
 	game.Players.LocalPlayer.Character.Humanoid.JumpPower =250
 end)
 
+Shindov2.Name = "Shindo v2"
+Shindov2.Parent = NextFrame
+Shindov2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Shindov2.BorderSizePixel = 0
+Shindov2.Position = UDim2.new(0.235682815, 0, 0.602693558, 0)
+Shindov2.Size = UDim2.new(0, 99, 0, 50)
+Shindov2.Font = Enum.Font.SourceSans
+Shindov2.Text = "Shindo v2"
+Shindov2.TextColor3 = Color3.fromRGB(255, 170, 0)
+Shindov2.TextSize = 20.000
+Shindov2.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://scriptblox.com/raw/shindo-life-autofarmautospin_891", true))()
+end)
 
 Back.Name = "Back"
 Back.Parent = NextFrame
@@ -3722,4 +3736,4 @@ Open.MouseButton1Down:connect(function()
 	openmain.Visible = false
 	main.Visible = true
 	NextFrame.Visible =false
-end)
+end) 
