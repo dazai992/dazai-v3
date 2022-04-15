@@ -39,6 +39,7 @@ local Shindo = Instance.new("TextButton")
 local Adminv2 = Instance.new("TextButton")
 local PowerfulJump = Instance.new("TextButton")
 local Shindov2 = Instance.new("TextButton")
+local CRITICALSTRIKE = Instance.new("TextButton")
 
 --Properties:
 
@@ -3661,6 +3662,22 @@ Adminv2.TextColor3 = Color3.fromRGB(255, 170, 0)
 Adminv2.TextSize = 20.000
 Adminv2.MouseButton1Down:Connect(function()
 	loadstring(game:HttpGet(('https://pastebin.com/raw/MjBzRjmT'),true))()
+end)
+
+
+
+CRITICALSTRIKE.Name = "CRITICAL STRIKE"
+CRITICALSTRIKE.Parent = NextFrame
+CRITICALSTRIKE.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+CRITICALSTRIKE.BorderSizePixel = 0
+CRITICALSTRIKE.Position = UDim2.new(0.473568261, 0, 0.208754167, 0)
+CRITICALSTRIKE.Size = UDim2.new(0, 99, 0, 50)
+CRITICALSTRIKE.Font = Enum.Font.SourceSans
+CRITICALSTRIKE.Text = "CRITICAL STRIKE"
+CRITICALSTRIKE.TextColor3 = Color3.fromRGB(255, 170, 0)
+CRITICALSTRIKE.TextSize = 15.000
+CRITICALSTRIKE.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/WrF6UWQg'),true))()
 end)
 
 Back.Name = "Back"
