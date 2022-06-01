@@ -3619,7 +3619,7 @@ Shindo.Text = "Shindo"
 Shindo.TextColor3 = Color3.fromRGB(255, 170, 0)
 Shindo.TextSize = 20.000
 Shindo.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/L1ZOT/Project-PJM/main/shinido"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Corrupt2625/pjv/main/Shindo.lua"))()
 end)
 
 PowerfulJump.Name = "Powerful Jump"
@@ -3647,7 +3647,7 @@ Shindov2.Text = "Shindo v2"
 Shindov2.TextColor3 = Color3.fromRGB(255, 170, 0)
 Shindov2.TextSize = 20.000
 Shindov2.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet("https://scriptblox.com/raw/shindo-life-autofarmautospin_891", true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Premier/main/PremierX-Free.lua", true))()
 end)
 
 Adminv2.Name = "Admin v2"
