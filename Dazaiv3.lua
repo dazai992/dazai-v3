@@ -3663,7 +3663,8 @@ Adminv2.Text = "Admin v2"
 Adminv2.TextColor3 = Color3.fromRGB(255, 170, 0)
 Adminv2.TextSize = 20.000
 Adminv2.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet(('https://pastebin.com/raw/MjBzRjmT'),true))()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+
 end)
 
 
