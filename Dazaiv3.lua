@@ -3792,7 +3792,7 @@ SCP3008.Font = Enum.Font.SourceSans
 SCP3008.Text = "SCP 3008"
 SCP3008.TextColor3 = Color3.fromRGB(255, 170, 0)
 SCP3008.TextSize = 15.000
-SCP3008..MouseButton1Down:Connect(function()
+SCP3008.MouseButton1Down:Connect(function()
 local UILibrary = loadstring(game:HttpGet("https://pastebin.com/raw/V1ca2q9s"))()
 
 local MainUI = UILibrary.Load("CheatX - 3008")
