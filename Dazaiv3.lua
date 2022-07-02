@@ -3623,7 +3623,7 @@ Shindo.Text = "Shindo"
 Shindo.TextColor3 = Color3.fromRGB(255, 170, 0)
 Shindo.TextSize = 20.000
 Shindo.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Corrupt2625/pjv/main/Shindo.lua"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Premier/main/Free-Premier.lua", true))()
 end)
 
 PowerfulJump.Name = "Powerful Jump"
